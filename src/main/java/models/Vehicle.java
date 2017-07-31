@@ -10,7 +10,17 @@ public class Vehicle {
     public int miles;
     public int price;
 
-        public boolean worthBuying(int maxPrice){
+
+
+    public boolean worthBuying(int maxPrice) {
             return (price < maxPrice);
-        }
+    }
+
+    public Vehicle(int year, String brand, String model, int miles, int price){
+        year = year;
+        brand = brand;
+        model = model;
+        miles = miles;
+        price = price;
+    }
 }
